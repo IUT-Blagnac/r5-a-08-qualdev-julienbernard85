@@ -51,4 +51,4 @@ class Order {
 ---
 
 .Build Success
-image::images/build_successTP2.png[width=80%]
+image::images/Build_successTP2.png[width=80%]
