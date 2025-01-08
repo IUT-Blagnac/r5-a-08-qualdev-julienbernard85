@@ -21,9 +21,34 @@ Feature: Is it Friday yet?
       | anything else! | Nope   |
 ---
 
-.Exemple d'image insérée en asciidoc
-image::artifacts-r303.svg[width=80%]
+.Build Success
 
 image::images/build_success.png[width=80%]
 
-== TP2...
+== TP2
+
+package dojo;
+
+import java.util.Collections;
+import java.util.List;
+
+
+class Order {
+
+    void declareOwner(String from) {
+        from = "romeo";
+    }
+
+    void declareTarget(String to) {
+        to = "juliette";
+    }
+
+    List<String> getCocktails() {
+        return Collections.emptyList();
+    }
+}
+
+---
+
+.Build Success
+image::images/build_successTP2.png[width=80%]
