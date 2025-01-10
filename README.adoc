@@ -168,4 +168,4 @@ class Characters
 }
 
 .Build Success
-image::images/Build_TP3.png[width=80%]
+image::images/build_TP3.png[width=80%]
